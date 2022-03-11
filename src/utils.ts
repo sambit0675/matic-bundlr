@@ -11,6 +11,12 @@ export default class Utils {
         this.config = config;
         this.currency = currency;
     };
+
+    /**
+     * Throws an error if the provided axios reponse has a status code != 200
+     * @param res an axios response
+     * @returns nothing if the status code is 200
+     */
     private static checkAndThrow(res: AxiosResponse) {
         if (res.status != 200) {
             throw new Error(`Error: ${res.status} ${JSON.stringify(res.data)}`);

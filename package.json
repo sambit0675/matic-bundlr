@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@metamask/eth-sig-util": "^4.0.0",
-    "arbundles": "^0.4.0",
+    "arbundles": "^0.6.15",
     "arweave": "^1.10.17",
     "base64url": "^3.0.1",
     "bignumber.js": "^9.0.1",
